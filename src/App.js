@@ -18,7 +18,6 @@ class App extends Component {
                     <Switch>
                         <Route
                             path="/loggedIn"
-                            exact
                             component={LoggedIn} />
                         <Route
                             path="/auth"
