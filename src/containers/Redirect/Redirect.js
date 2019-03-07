@@ -14,6 +14,10 @@ class Redirect extends Component {
         console.log(this.state);
     }
 
+    componentWillUnmount() {
+        this.props.history.push("/loggedIn");
+    }
+
     render() {
         return (
             <section>
