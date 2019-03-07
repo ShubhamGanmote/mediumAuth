@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 
 import Auth from './containers/Auth/Auth';
@@ -14,6 +14,7 @@ class App extends Component {
             <BrowserRouter>
                 <div className="App">
                     <h1>Medium Login Auth</h1>
+                    <Link to="/loggedIn">LoggedIn</Link>
                     <Auth />
                     <Switch>
                         <Route
