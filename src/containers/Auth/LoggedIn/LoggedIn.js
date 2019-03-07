@@ -34,7 +34,7 @@ class LoggedIn extends Component {
                 client_id: '8fcad141a6',
                 client_secret: '28efa0e19df4b0397e5524fe4a896ac6ac9f99e0',
                 grant_type: 'authorization_code',
-                redirect_uri: 'https://mediumauth.firebaseapp.com/loggedIn'
+                redirect_uri: 'https://optimistic-bhaskara-9204dc.netlify.com/loggedIn'
             })
         })
             .then(response => {

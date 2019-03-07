@@ -1,1 +1,1 @@
-export const path = "https://medium.com/m/oauth/authorize?client_id=8fcad141a6&scope=basicProfile,publishPost,listPublications&state=welcome&response_type=code&redirect_uri=https://mediumauth.firebaseapp.com/loggedIn";
+export const path = "https://medium.com/m/oauth/authorize?client_id=8fcad141a6&scope=basicProfile,publishPost,listPublications&state=welcome&response_type=code&redirect_uri=https://optimistic-bhaskara-9204dc.netlify.com/loggedIn";
