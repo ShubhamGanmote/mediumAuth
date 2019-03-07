@@ -14,7 +14,6 @@ class App extends Component {
             <BrowserRouter>
                 <div className="App">
                     <h1>Medium Login Auth</h1>
-                    <Link to="/loggedIn">LoggedIn</Link>
                     <Auth />
                     <Switch>
                         <Route
